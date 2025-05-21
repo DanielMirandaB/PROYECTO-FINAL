@@ -53,8 +53,10 @@ h2 {
 h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
+/* Estilos para el formulario */
 form {
     display: grid;
     gap: 1.5rem;
