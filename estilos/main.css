@@ -46,6 +46,68 @@ main {
 
 h2 {
     color: #0078d4;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0078d4;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #005fa3;
 }
 
 footer {
@@ -58,6 +120,11 @@ footer {
     width: 100%;
 }
 
-video {
-    max-width: 100%;
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
